@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>نجمه گلستان هاشمی</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    
+</head>
+<header class="bg-indigo-100 text-gray-800 shadow fixed top-0 right-0 left-0 z-50">
+  <div class="w-full flex justify-end items-center px-6 py-4">
+
+    <!-- منو -->
+    <nav class="w-auto">
+      <ul class="flex flex-row-reverse items-center space-x-reverse space-x-6 text-sm font-medium text-right">
+
+        <li><a href="index.html" class="hover:text-blue-600">شروع مسیر</a></li>
+         <!-- هم‌صحبتی با مشاور -->
+        <li style="position: relative;" onmouseover="showMenu()" onmouseout="hideMenu()">
+          <span style="padding: 10px 16px; cursor: pointer;">هم‌صحبتی با مشاور</span>
+          <div id="submenu" style="display: none; position: absolute; right: 0; top: 100%; margin-top: 5px; background-color: white; border: 1px solid #90cdf4; border-radius: 6px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); z-index: 1000; min-width: 180px; text-align: right;">
+            <!-- داخل ایران -->
+            <div style="position: relative;" onmouseover="this.querySelector('.inner1').style.display='block'" onmouseout="this.querySelector('.inner1').style.display='none'">
+              <a href="#" style="display: block; padding: 10px 16px;">داخل ایران</a>
+              <div class="inner1" style="display: none; position: absolute; right: 100%; top: 0; background-color: white; border: 1px solid #90cdf4; border-radius: 6px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); min-width: 160px;">
+                <a href="online.html" style="display: block; padding: 10px 16px;">مشاوره آنلاین</a>
+                <a href="online.html" style="display: block; padding: 10px 16px;">مشاوره حضوری</a>
+              </div>
+            </div>
+            <!-- خارج از ایران -->
+            <div style="position: relative;" onmouseover="this.querySelector('.inner2').style.display='block'" onmouseout="this.querySelector('.inner2').style.display='none'">
+              <a href="#" style="display: block; padding: 10px 16px;">خارج از ایران</a>
+              <div class="inner2" style="display: none; position: absolute; right: 100%; top: 0; background-color: white; border: 1px solid #90cdf4; border-radius: 6px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); min-width: 160px;">
+                <a href="online.html" style="display: block; padding: 10px 16px;">مشاوره آنلاین</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="books.html" class="hover:text-blue-600">نکته‌های حال خوب کن</a></li>
+        <li><a href="books.html" class="hover:text-blue-600">برای روزای خسته</a></li>
+        <li><a href="about.html" class="hover:text-blue-600">آشنایی با من</a></li>
+        <li><a href="support.html" class="hover:text-blue-600">از اینجا پیدام کن</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+<script>
+  function showMenu() {
+    document.getElementById('submenu').style.display = 'block';
+  }
+  function hideMenu() {
+    document.getElementById('submenu').style.display = 'none';
+  }
+</script>
+            <li><a href="index.html">شروع مسیر </a></li>
+        </ul>
+    </div>
+</nav>
+        </div>
+    </header>
+   
+ <section class="min-h-screen bg-gradient-to-r from-blue-200 via-blue-100 to-white flex flex-col justify-center items-center px-6 text-center text-blue-900 overflow-hidden relative">
+  <svg class="absolute top-0 left-0 w-full h-full -z-20" preserveAspectRatio="none" viewBox="0 0 1440 320">
+    <path fill="rgba(255,255,255,0.7)" fill-opacity="0.7" d="M0,96L48,117.3C96,139,192,181,288,202.7C384,224,480,224,576,218.7C672,213,768,203,864,197.3C960,192,1056,192,1152,181.3C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+  </svg>
+
+  <h1 class="text-3xl md:text-5xl  mb-8 leading-tight drop-shadow-lg opacity-0 animate-fadeInDown whitespace-nowrap">
+    تنها راه رشد و نجات رسیدن به آگاهیه
+  </h1>
+
+  <p class="text-xl md:text-2xl max-w-xl mb-12 leading-relaxed drop-shadow-md opacity-0 animate-fadeInUp delay-500">
+    در دنیای پر از دغدغه، همراهت هستم برای پیدا کردن آرامش درون، دیدن مسائل با وضوح بیشتر و ساختن زندگی سالم‌تر
+  </p>
+
+  <p class="text-xl md:text-2xl  max-w-3xl border-l-8 border-blue-300 pl-8 shadow-md opacity-0 animate-fadeIn delay-1000" style="font-family: 'Vazir', Tahoma, sans-serif;">
+    هر روز یک قدم کوچک به سوی بهتر شدن خود بردار، مسیر موفقیت همین است
+  </p>
+
+  <style>
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .animate-fadeInDown {
+      animation: fadeInDown 3.5s ease forwards;
+      animation-fill-mode: forwards;
+    }
+
+    .animate-fadeInUp {
+      animation: fadeInUp 3.5s ease forwards;
+      animation-fill-mode: forwards;
+    }
+
+    .animate-fadeIn {
+      animation: fadeIn 4s ease forwards;
+      animation-fill-mode: forwards;
+    }
+
+    .delay-500 {
+      animation-delay: 0.5s;
+    }
+
+    .delay-1000 {
+      animation-delay: 1s;
+    }
+
+    /* انیمیشن موج */
+    @keyframes waveMove {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    svg path {
+      animation: waveMove 20s linear infinite;
+    }
+  </style>
+</section>
+
+
+ 
+   
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
